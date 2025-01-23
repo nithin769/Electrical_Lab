@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphicx}
+\usepackage{caption}
+
+\title{Lissajous Figures: A Mathematical Perspective}
+\author{EE24BTECH-11048:NITHIN.K,\\EE24BTECH11021:ESHAN RAY}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Lissajous figures are complex and beautiful patterns formed by the parametric equations of two perpendicular harmonic oscillations. This report explores their mathematical representation, properties, and applications in various fields such as physics, engineering, and art.
+\end{abstract}
+
+\section{Introduction}
+Lissajous figures, named after the French mathematician Jules Antoine Lissajous, are the graphs of parametric equations describing two harmonic motions in perpendicular directions. These figures are useful in analyzing the relationship between two oscillatory signals and are commonly seen in physics, engineering, and signal processing.
+
+\section{Mathematical Representation}
+The general parametric equations for Lissajous figures are:
+\begin{equation}
+x(t) = A \sin(\omega_x t + \delta)
+\end{equation}
+\begin{equation}
+y(t) = B \sin(\omega_y t)
+\end{equation}
+where:
+\begin{itemize}
+\item $A$ and $B$ are the amplitudes of the oscillations,
+\item $\omega_x$ and $\omega_y$ are the angular frequencies,
+\item $\delta$ is the phase difference between the two oscillations,
+\item $t$ is the time parameter.
+\end{itemize}
+
+\section{Properties of Lissajous Figures}
+Lissajous figures exhibit various properties depending on the frequency ratio $\frac{\omega_x}{\omega_y}$ and the phase difference $\delta$:
+\begin{itemize}
+\item When the frequencies are in simple integer ratios (e.g., 1:1, 2:3), closed curves form.
+\item If $\omega_x = \omega_y$ and $\delta = \frac{\pi}{2}$, the figure is a circle.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{figs/fig.png}
+\label{fig:lissajous}
+\end{figure}
+
+\item More complex ratios and phase differences result in intricate patterns.
+\item Their symmetry properties depend on the phase shift and amplitude ratios.
+\end{itemize}
+
+\section{Applications of Lissajous Figures}
+Lissajous figures have applications in various domains, including:
+\begin{itemize}
+\item \textbf{Oscilloscope Applications:} Used to visualize the phase relationship between two signals.
+\item \textbf{Vibration Analysis:} Employed to analyze harmonic motion in mechanical systems.
+\item \textbf{Signal Processing:} Used to study frequency components of audio and electrical signals.
+\item \textbf{Art and Design:} Generate aesthetically appealing patterns.
+\end{itemize}
+
+\section{Visualization}
+Below is an example of a Lissajous figure where the frequency ratio is 3:2 and phase difference is $\frac{\pi}{2}$:
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[width=0.5\textwidth]{lissajous_example.png}
+%\caption{A Lissajous figure with frequency ratio 3:2 and phase difference $\frac{\pi}{2}$.}
+%\label{fig:lissajous}
+%\end{figure}
+
+\section{Conclusion}
+Lissajous figures provide an elegant visualization of harmonic motion and phase relationships. Their study offers insights into signal analysis, mechanical vibrations, and artistic designs. Understanding their mathematical properties enhances their practical applications in science and engineering.
+
+\begin{thebibliography}{9}
+\bibitem{lissajous} Lissajous, J. A. "On the Study of Vibratory Motion by Means of the Optical Method." Comptes Rendus, 1857.
+\bibitem{signal} Smith, S. W. "The Scientist and Engineer's Guide to Digital Signal Processing." California Technical Publishing, 1997.
+\end{thebibliography}
+\end{document}
