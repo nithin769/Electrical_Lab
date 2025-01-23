@@ -12,7 +12,7 @@ def lissajous_curve(A, B, omega_x, omega_y, delta_y,delta_x, t_max=2*np.pi, num_
     plt.title('Lissajous Figure')
     plt.grid(True)
     plt.axis('equal')
-    plt.savefig('../figs/fig1.png')
+    plt.savefig('../figs/fig1_verify.png')
     plt.show()
 # Example: A = 1, B = 1, omega_x = 3, omega_y = 2, delta = pi/2
 lissajous_curve(A=5, B=5, omega_y=6*np.pi, omega_x=10*np.pi, delta_y=0,delta_x=np.pi/2)

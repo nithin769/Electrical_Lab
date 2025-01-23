@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  23 JAN 2025 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  23 JAN 2025 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -133,10 +133,18 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count271
 \c@continuedfloat=\count272
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count273
+\float@exts=\toks22
+\float@box=\box52
+\@float@everytoks=\toks23
+\@floatcapt=\box53
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count273
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count274
+\l__pdf_internal_box=\box54
 )
 (./report.aux)
 \openout1 = `report.aux'.
@@ -158,17 +166,17 @@ LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
+\scratchcounter=\count275
 \scratchdimen=\dimen157
-\scratchbox=\box53
-\nofMPsegments=\count275
-\nofMParguments=\count276
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count277
+\scratchbox=\box55
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count278
 \MPscratchDim=\dimen158
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks23
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -179,14 +187,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -194,37 +203,131 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figs/fig.png, id=15, 1284.8pt x 963.6pt>
+<figs/func_gen.png, id=12, 1077.02374pt x 725.71124pt>
+File: figs/func_gen.png Graphic file (type png)
+<use figs/func_gen.png>
+Package pdftex.def Info: figs/func_gen.png  used on input line 59.
+(pdftex.def)             Requested size: 172.5pt x 116.2269pt.
+ [2 <./figs/func_gen.png>]
+<figs/fig.png, id=18, 1284.8pt x 963.6pt>
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 44.
+Package pdftex.def Info: figs/fig.png  used on input line 94.
 (pdftex.def)             Requested size: 172.5pt x 129.37462pt.
- [2 <./figs/fig.png>] [3] (./report.aux) ) 
+ [3 <./figs/fig.png>]
+<figs/fig1.png, id=26, 586.19pt x 441.65pt>
+File: figs/fig1.png Graphic file (type png)
+<use figs/fig1.png>
+Package pdftex.def Info: figs/fig1.png  used on input line 133.
+(pdftex.def)             Requested size: 172.5pt x 129.96214pt.
+<figs/fig1_verify.png, id=27, 361.35pt x 361.35pt>
+File: figs/fig1_verify.png Graphic file (type png)
+<use figs/fig1_verify.png>
+Package pdftex.def Info: figs/fig1_verify.png  used on input line 134.
+(pdftex.def)             Requested size: 172.5pt x 172.49767pt.
+ [4]
+<figs/fig2.png, id=36, 622.325pt x 497.86pt>
+File: figs/fig2.png Graphic file (type png)
+<use figs/fig2.png>
+Package pdftex.def Info: figs/fig2.png  used on input line 156.
+(pdftex.def)             Requested size: 172.5pt x 138.00204pt.
+<figs/fig2_verify.png, id=37, 361.35pt x 361.35pt>
+File: figs/fig2_verify.png Graphic file (type png)
+<use figs/fig2_verify.png>
+Package pdftex.def Info: figs/fig2_verify.png  used on input line 157.
+(pdftex.def)             Requested size: 172.5pt x 172.49767pt.
+ [5 <./figs/fig1.png> <./figs/fig1_verify.png>]
+<figs/fig3.png, id=42, 626.34pt x 469.755pt>
+File: figs/fig3.png Graphic file (type png)
+<use figs/fig3.png>
+Package pdftex.def Info: figs/fig3.png  used on input line 179.
+(pdftex.def)             Requested size: 172.5pt x 129.37297pt.
+<figs/fig3_verify.png, id=43, 361.35pt x 361.35pt>
+File: figs/fig3_verify.png Graphic file (type png)
+<use figs/fig3_verify.png>
+Package pdftex.def Info: figs/fig3_verify.png  used on input line 180.
+(pdftex.def)             Requested size: 172.5pt x 172.49767pt.
+ [6 <./figs/fig2.png> <./figs/fig2_verify.png>]
+<figs/fig4.png, id=48, 630.355pt x 445.665pt>
+File: figs/fig4.png Graphic file (type png)
+<use figs/fig4.png>
+Package pdftex.def Info: figs/fig4.png  used on input line 202.
+(pdftex.def)             Requested size: 172.5pt x 121.95642pt.
+<figs/fig4_verify.png, id=49, 361.35pt x 361.35pt>
+File: figs/fig4_verify.png Graphic file (type png)
+<use figs/fig4_verify.png>
+Package pdftex.def Info: figs/fig4_verify.png  used on input line 203.
+(pdftex.def)             Requested size: 172.5pt x 172.49767pt.
+ [7 <./figs/fig3.png> <./figs/fig3_verify.png>]
+<figs/fig5.png, id=55, 786.94pt x 586.19pt>
+File: figs/fig5.png Graphic file (type png)
+<use figs/fig5.png>
+Package pdftex.def Info: figs/fig5.png  used on input line 225.
+(pdftex.def)             Requested size: 172.5pt x 128.48813pt.
+<figs/fig5_verify.png, id=56, 361.35pt x 361.35pt>
+File: figs/fig5_verify.png Graphic file (type png)
+<use figs/fig5_verify.png>
+Package pdftex.def Info: figs/fig5_verify.png  used on input line 226.
+(pdftex.def)             Requested size: 172.5pt x 172.49767pt.
+ [8 <./figs/fig4.png> <./figs/fig4_verify.png>]
+<figs/fig6.png, id=61, 698.61pt x 529.98pt>
+File: figs/fig6.png Graphic file (type png)
+<use figs/fig6.png>
+Package pdftex.def Info: figs/fig6.png  used on input line 248.
+(pdftex.def)             Requested size: 172.5pt x 130.86113pt.
+<figs/fig6_verify.png, id=62, 361.35pt x 361.35pt>
+File: figs/fig6_verify.png Graphic file (type png)
+<use figs/fig6_verify.png>
+Package pdftex.def Info: figs/fig6_verify.png  used on input line 249.
+(pdftex.def)             Requested size: 172.5pt x 172.49767pt.
+ [9 <./figs/fig5.png> <./figs/fig5_verify.png>]
+<figs/dso.png, id=67, 803.0pt x 511.9125pt>
+File: figs/dso.png Graphic file (type png)
+<use figs/dso.png>
+Package pdftex.def Info: figs/dso.png  used on input line 261.
+(pdftex.def)             Requested size: 172.5pt x 109.9653pt.
+ [10 <./figs/fig6.png> <./figs/fig6_verify.png>] [11 <./figs/dso.png>]
+<figs/ofig1.png, id=75, 1606.0pt x 1204.5pt>
+File: figs/ofig1.png Graphic file (type png)
+<use figs/ofig1.png>
+Package pdftex.def Info: figs/ofig1.png  used on input line 307.
+(pdftex.def)             Requested size: 241.49895pt x 181.1083pt.
+<figs/ofig2.png, id=76, 1606.0pt x 1204.5pt>
+File: figs/ofig2.png Graphic file (type png)
+<use figs/ofig2.png>
+Package pdftex.def Info: figs/ofig2.png  used on input line 312.
+(pdftex.def)             Requested size: 241.49895pt x 181.1083pt.
+
+[12 <./figs/ofig1.png>] [13 <./figs/ofig2.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3790 strings out of 478287
- 61296 string characters out of 5849290
+ 3973 strings out of 478287
+ 64682 string characters out of 5849290
  352389 words of memory out of 5000000
- 21975 multiletter control sequences out of 15000+600000
- 477757 words of font info for 61 fonts, out of 8000000 for 9000
+ 22136 multiletter control sequences out of 15000+600000
+ 478685 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,63p,369b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-
-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm100
-0.pfb>
-Output written on report.pdf (3 pages, 248677 bytes).
+ 55i,8n,63p,369b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/tex
+mf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pf
+b>
+Output written on report.pdf (13 pages, 9120594 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 152 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
