@@ -386,19 +386,19 @@ V_C(t) = V_{max} \left( 1 - e^{-\frac{t}{RC}} \right)
 
 For this case, the capacitor will charge very slowly, and by the time the input square wave changes polarity, the capacitor will have only partially charged.\\
 
-For this case, \( RC = 0.2ms \), T = 0.02ms then after the period \( t = 0.104ms \):\\
+For this case, \( RC = 5ms \), T = 1ms then after the period \( t = 0.26ms \):\\
 theoretically :
 \[
-V_C\left(t\right) = 5V \left( 1 - e^{-0.104/0.2} \right) \approx 5V \times (1 - 0.59) \approx 5V \times 0.41 \approx 2.05V
+V_C\left(t\right) = 5V \left( 1 - e^{-0.26/5} \right) \approx 5V \times (1 - 0.95) \approx 5V \times 0.05 \approx 250mV
 \]
 
 The capacitor barely charges before the input reverses polarity.\\
 
 Observation(figure 4) : \\
 \[
-V_C(t) = 2.64V
+V_C(t) = 280mV
 \]
-Due to some errors in resistor and capacitor values we are getting errors in the voltage. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{figs/rc>t_tr.jpeg}
