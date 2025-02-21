@@ -6,6 +6,7 @@
 \usepackage{pgfplots}
 \usepackage{float}
 \usepackage{circuitikz}
+\usepackage{subcaption}
 \title{Bode Plot Analysis of Cascaded RC Low-Pass Filters}
 \author{EE24BTECH11048-NITHIN.K\\EE24BTECH11021-ESHAN RAY}
 \date{\today}
@@ -194,34 +195,95 @@ where \( n \) is the number of stages.
 \section{Observations}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{figs/ampl_1cas.png}
-    \caption{Amplitude Plot for 1-stage RC}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/ampl1.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=1.7\textwidth]{figs/ampl_1cas.png}
+    \end{subfigure}
+    
+    \caption{Amplitude Plot for RC circuit}
 \end{figure}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{figs/phase_1cas.png}
-    \caption{Phase Plot for 1-stage RC}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/phase1.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=1.7\textwidth]{figs/phase_1cas.png}
+    \end{subfigure}
+    
+    \caption{Phase Plot for RC circuit}
 \end{figure}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{figs/ampl_2cas.png}
-    \caption{Amplitude Plot for 2-stage RC}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/ampl2.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=1.7\textwidth]{figs/ampl_2cas.png}
+    \end{subfigure}
+    
+    \caption{Amplitude Plot for 2 cascaded RC circuit}
 \end{figure}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{figs/phase_2cas.png}
-    \caption{Phase Plot for 2-stage RC}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/phase2.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=1.7\textwidth]{figs/phase_2cas.png}
+    \end{subfigure}
+    
+    \caption{Phase Plot for 2 cascaded RC circuit}
 \end{figure}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{figs/ampl_3cas.png}
-    \caption{Amplitude Plot for 3-stage RC}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/ampl3.png}
+
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=1.7\textwidth]{figs/ampl_3cas.png}
+    \end{subfigure}
+    
+    \caption{Amplitude Plot for 3 cascaded RC circuit}
 \end{figure}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{figs/phase_3cas.png}
-    \caption{Phase Plot for 3-stage RC}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/phase3.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=1.7\textwidth]{figs/phase_3cas.png}
+    \end{subfigure}
+    
+    \caption{Phase Plot for 3 cascaded RC circuit}
 \end{figure}
+
 \section{Additional Points}
 \subsection{Applications of Bode Plots}
 \begin{itemize}
