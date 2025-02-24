@@ -5,6 +5,8 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
+\usepackage{subcaption}
+
 \title{Transient Response Analysis of an LC Circuit}
 \author{EE24BTECH11048-NITHIN.K \\ EE24BTECH11021-ESHAN RAY}
 \date{\today}
@@ -113,48 +115,102 @@ where \(\alpha = \xi \Omega_n\) is the decay rate.
 
 \begin{figure}[H]
     \centering
-    \begin{tikzpicture}
-        \begin{axis}[
-            domain=0:6.5,
-            samples=100,
-            axis x line=middle,
-            axis y line=middle,
-            xlabel={$t$},
-            ylabel={$V(t)$},
-            xtick=\empty,
-            ytick=\empty,
-            enlargelimits=true,
-            clip=false
-        ]
-        \addplot[blue, thick] {cos(deg(deg(x*180/3.14)))};
-        \end{axis}
-    \end{tikzpicture}
-    \caption{Ideal LC circuit response: Continuous sinusoidal oscillation}
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                domain=0:6.5,
+                samples=200, % Increased samples for smoother curve
+                axis x line=middle,
+                axis y line=middle,
+                xlabel={$t$},
+                ylabel={$V(t)$},
+                xtick=\empty,
+                ytick=\empty,
+                enlargelimits=true,
+                no markers,
+                clip=false
+            ]
+            \addplot[blue, thick, smooth] {cos(deg(x))}; % Using smooth option
+            \end{axis}
+        \end{tikzpicture}
+        \caption{Smooth Ideal LC Circuit Response}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                domain=0:6.5,
+                samples=100,
+                axis x line=middle,
+                axis y line=middle,
+                xlabel={$t$},
+                ylabel={$V(t)$},
+                xtick=\empty,
+                ytick=\empty,
+                enlargelimits=true,
+                clip=false
+            ]
+            \addplot[blue, thick] {cos(deg(deg(x*180/3.14)))}; 
+            \end{axis}
+        \end{tikzpicture}
+        \caption{Alternative Ideal LC Circuit Response}
+    \end{subfigure}
+    \caption{Comparison of Ideal LC Circuit Responses}
 \end{figure}
-
 
 \begin{figure}[H]
     \centering
-    \begin{tikzpicture}
-        \begin{axis}[
-            domain=0:6.5,
-            samples=100,
-            axis x line=middle,
-            axis y line=middle,
-            xlabel={$t$},
-            ylabel={$V(t)$},
-            xtick=\empty,
-            ytick=\empty,
-            enlargelimits=true,
-            clip=false
-        ]
-        \addplot[red, thick] {exp(-0.3*x) * cos(deg(deg(x*180/3.14)))};
-        \addplot[dashed, gray] {exp(-0.3*x)};
-        \addplot[dashed, gray] {-exp(-0.3*x)};
-        \end{axis}
-    \end{tikzpicture}
-    \caption{Damped LC circuit response: Exponentially decaying oscillation due to resistance}
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                domain=0:6.5,
+                samples=200, % Increased for smoother decay
+                axis x line=middle,
+                axis y line=middle,
+                xlabel={$t$},
+                ylabel={$V(t)$},
+                xtick=\empty,
+                ytick=\empty,
+                enlargelimits=true,
+                no markers,
+                clip=false
+            ]
+            \addplot[red, thick, smooth] {exp(-0.3*x) * cos(deg(x))}; % Smooth damping
+            \addplot[dashed, gray, smooth] {exp(-0.3*x)}; % Upper decay envelope
+            \addplot[dashed, gray, smooth] {-exp(-0.3*x)}; % Lower decay envelope
+            \end{axis}
+        \end{tikzpicture}
+        \caption{Damped LC Circuit Response (Smooth)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                domain=0:6.5,
+                samples=100,
+                axis x line=middle,
+                axis y line=middle,
+                xlabel={$t$},
+                ylabel={$V(t)$},
+                xtick=\empty,
+                ytick=\empty,
+                enlargelimits=true,
+                clip=false
+            ]
+            \addplot[red, thick] {exp(-0.3*x) * cos(deg(deg(x*180/3.14)))};
+            \addplot[dashed, gray] {exp(-0.3*x)};
+            \addplot[dashed, gray] {-exp(-0.3*x)};
+            \end{axis}
+        \end{tikzpicture}
+        \caption{Damped LC Circuit Response (Alternative)}
+    \end{subfigure}
+    \caption{Comparison of Damped LC Circuit Responses}
 \end{figure}
+
 
 
 In the case of strong damping (\(\xi > 1\)), oscillations may not occur at all, leading to an overdamped response where the system slowly returns to equilibrium. If \(\xi = 1\), the system is critically damped and returns to equilibrium in the shortest possible time without oscillating.

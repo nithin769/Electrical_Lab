@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  24 FEB 2025 13:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  24 FEB 2025 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,30 +708,54 @@ File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
 de.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
+))) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen281
+\captionmargin@=\dimen282
+\captionwidth=\dimen283
+\caption@tempdima=\dimen284
+\caption@indent=\dimen285
+\caption@parindent=\dimen286
+\caption@hangindent=\dimen287
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count321
+\c@continuedfloat=\count322
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count323
+\c@subtable=\count324
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 12.
+h' as default language. on input line 14.
  (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -739,20 +763,20 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 12.
+or `english'. on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen281
+\scratchcounter=\count325
+\scratchdimen=\dimen288
 \scratchbox=\box76
-\nofMPsegments=\count322
-\nofMParguments=\count323
+\nofMPsegments=\count326
+\nofMParguments=\count327
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen282
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen289
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
 \everyMPtoPDFconversion=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -763,7 +787,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -774,11 +798,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count327
+\c@section@level=\count331
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (./report.out) (./report.out)
 \@outlinefile=\write4
@@ -788,12 +812,14 @@ LaTeX Info: Redefining \nameref on input line 12.
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -804,77 +830,71 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figs/diagram.png, id=83, 262.9825pt x 192.72pt>
 File: figs/diagram.png Graphic file (type png)
 <use figs/diagram.png>
-Package pdftex.def Info: figs/diagram.png  used on input line 63.
+Package pdftex.def Info: figs/diagram.png  used on input line 65.
 (pdftex.def)             Requested size: 272.99881pt x 200.06824pt.
 <figs/circuit.jpeg, id=84, 1606.0pt x 1204.5pt>
 File: figs/circuit.jpeg Graphic file (type jpg)
 <use figs/circuit.jpeg>
-Package pdftex.def Info: figs/circuit.jpeg  used on input line 68.
+Package pdftex.def Info: figs/circuit.jpeg  used on input line 70.
 (pdftex.def)             Requested size: 272.99881pt x 204.74391pt.
- [2] [3pdfTeX warning (ext4): destination with the same identifier (name{figure
-.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.80     \item C
-                alculate the damping ratio \(\xi\) using measured resistance.pd
-fTeX warning (ext4): destination with the same identifier (name{figure.2}) has 
-been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.80     \item C
-                alculate the damping ratio \(\xi\) using measured resistance. <
-./figs/diagram.png> <./figs/circuit.jpeg>]
+ [2] [3 <./figs/diagram.png> <./figs/circuit.jpeg>]
 <figs/plot.jpeg, id=104, 1606.0pt x 1204.5pt>
 File: figs/plot.jpeg Graphic file (type jpg)
 <use figs/plot.jpeg>
-Package pdftex.def Info: figs/plot.jpeg  used on input line 84.
+Package pdftex.def Info: figs/plot.jpeg  used on input line 86.
 (pdftex.def)             Requested size: 272.99881pt x 204.74391pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.105 
-       <./figs/plot.jpeg>] [5pdfTeX warning (ext4): destination with the same i
-dentifier (name{figure.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.161 \subsection
-                 {Decay Rate}pdfTeX warning (ext4): destination with the same i
-dentifier (name{figure.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.161 \subsection
-                 {Decay Rate}]
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
+ [4 <./figs/plot.jpeg>]
+Overfull \hbox (19.903pt too wide) in paragraph at lines 136--137
+ [][] 
+ []
+
+
+Overfull \hbox (19.90149pt too wide) in paragraph at lines 157--158
+ [][] 
+ []
+
+
+Overfull \hbox (19.903pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+
+Overfull \hbox (19.90149pt too wide) in paragraph at lines 208--209
+ [][] 
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
-[6] [7] (./report.aux)
+[6] [7] [8] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: E74F82910D6E023AE0356084B955C2F6;2467.
  ) 
 Here is how much of TeX's memory you used:
- 34061 strings out of 478287
- 829852 string characters out of 5849290
- 1202597 words of memory out of 5000000
- 51730 multiletter control sequences out of 15000+600000
- 478729 words of font info for 64 fonts, out of 8000000 for 9000
+ 35380 strings out of 478287
+ 856124 string characters out of 5849290
+ 1335355 words of memory out of 5000000
+ 53039 multiletter control sequences out of 15000+600000
+ 479029 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,89p,727b,2016s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,13n,89p,727b,2213s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on report.pdf (7 pages, 469690 bytes).
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on report.pdf (8 pages, 505618 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
