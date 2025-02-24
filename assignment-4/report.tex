@@ -2,7 +2,9 @@
 \usepackage{amsmath, amssymb, siunitx, graphicx}
 \usepackage{hyperref}
 \usepackage{float}
-
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 \title{Transient Response Analysis of an LC Circuit}
 \author{EE24BTECH11048-NITHIN.K \\ EE24BTECH11021-ESHAN RAY}
 \date{\today}
@@ -90,6 +92,72 @@ The damped frequency (\(\Omega_d\)) is related to the natural frequency as:
     \item Calculated damping ratio: \(\xi = 0.8855\)
     \item Estimated resistance: \SI{3.83}{\kilo\ohm} (possibly due to additional resistances)
 \end{itemize}
+
+\section{Effect of Resistance on Oscillations}
+
+In an ideal LC circuit, where the inductor and capacitor have no resistance, energy oscillates continuously between the capacitor's electric field and the inductor's magnetic field. This results in a purely sinusoidal response at the natural frequency \(\Omega_n\):
+
+\[
+V(t) = V_0 \cos(\Omega_n t + \phi)
+\]
+
+However, real inductors and capacitors have internal resistance, which causes energy loss. The presence of resistance leads to damping, resulting in an exponentially decaying oscillation:
+
+\[
+V(t) = V_0 e^{-\alpha t} \cos(\Omega_d t + \phi)
+\]
+
+where \(\alpha = \xi \Omega_n\) is the decay rate.
+
+\subsection{Illustrative Diagrams}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            domain=0:6.5,
+            samples=100,
+            axis x line=middle,
+            axis y line=middle,
+            xlabel={$t$},
+            ylabel={$V(t)$},
+            xtick=\empty,
+            ytick=\empty,
+            enlargelimits=true,
+            clip=false
+        ]
+        \addplot[blue, thick] {cos(deg(deg(x*180/3.14)))};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Ideal LC circuit response: Continuous sinusoidal oscillation}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            domain=0:6.5,
+            samples=100,
+            axis x line=middle,
+            axis y line=middle,
+            xlabel={$t$},
+            ylabel={$V(t)$},
+            xtick=\empty,
+            ytick=\empty,
+            enlargelimits=true,
+            clip=false
+        ]
+        \addplot[red, thick] {exp(-0.3*x) * cos(deg(deg(x*180/3.14)))};
+        \addplot[dashed, gray] {exp(-0.3*x)};
+        \addplot[dashed, gray] {-exp(-0.3*x)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Damped LC circuit response: Exponentially decaying oscillation due to resistance}
+\end{figure}
+
+
+In the case of strong damping (\(\xi > 1\)), oscillations may not occur at all, leading to an overdamped response where the system slowly returns to equilibrium. If \(\xi = 1\), the system is critically damped and returns to equilibrium in the shortest possible time without oscillating.
 \subsection{Decay Rate}
 The decay rate (attenuation coefficient) \(\alpha\) determines how quickly oscillations decrease in amplitude due to resistance.\\
 It is also related to the damping ratio as:
