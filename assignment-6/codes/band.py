@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Component values
 C1_highpass, C2_highpass, C1_lowpass, C2_lowpass = 1e-6, 1e-6, 1e-6, 1e-6  # 100 nF
-R1_highpass, R2_highpass, R1_lowpass, R2_lowpass = 150, 150, 15, 15  # 5 kΩ
+R1_highpass, R2_highpass, R1_lowpass, R2_lowpass = 150e3, 150e3, 150, 150  # 5 kΩ
 
 # Frequency range (log scale)
 frequencies = np.linspace(1, 1e6, 100000)  # 10 Hz to 100 kHz
