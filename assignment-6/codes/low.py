@@ -1,0 +1,48 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Component values
+C1, C2 = 1e-9, 1e-9
+R1, R2 = 8.2e3, 8.2e3  
+
+# Frequency range (log scale)
+frequencies = np.linspace(1e2, 1e5, 10000)  
+w = 2 * np.pi * frequencies  # Convert to angular frequency
+
+# Low-pass filter magnitude response
+def lowpass(w, C1, C2, R1, R2):
+    magnitude = 1 / np.sqrt((1 - (w ** 2) * C1 * C2 * R1 * R2) ** 2 + (w * C1 * (R1 + R2)) ** 2)
+    return 20 * np.log10(magnitude)  # Use log10, not log
+
+# Compute response
+y_values = lowpass(w, C1, C2, R1, R2)
+
+# Calculate -3 dB cutoff frequency
+fc = 1 / (2 * np.pi * np.sqrt(C1 * C2 * R1 * R2))
+cutoff_level = -3  # -3 dB standard cutoff level
+
+# Plot
+plt.figure(figsize=(8, 5))
+plt.xlim(0, 6)
+plt.plot(np.log10(w), y_values, label="Low-Pass Filter", color="b", linewidth=2)
+
+with open("./vals_lowpass.txt", "r") as file:
+    lines = file.readlines()
+    lines.pop(0)
+    for l in lines:
+        f, v = l.split()
+        f = float(f)
+        v = float(v)
+        print(f, v)
+                
+        plt.scatter(np.log10(2*(np.pi)*f), 20*np.log10(v), color="orange")
+
+# Customization
+plt.xlabel("log(Frequency) (Hz)", fontsize=12)
+plt.ylabel("Magnitude Response(dB)", fontsize=12)
+plt.title("Low-Pass Filter Frequency Response", fontsize=14)
+plt.grid(which="both", linestyle="--", linewidth=0.5)
+plt.axhline(cutoff_level, color="r", linestyle="--", linewidth=1, label="-3 dB Cutoff")
+plt.axvline(np.log10(fc), color="g", linestyle="--", linewidth=1, label=f"Cutoff Frequency: {fc:.1f} Hz")
+plt.legend(fontsize=10)
+plt.show()
