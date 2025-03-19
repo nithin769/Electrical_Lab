@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  19 MAR 2025 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  19 MAR 2025 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -236,7 +236,14 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 14.
 
-(./report.aux)
+(./report.aux
+
+LaTeX Warning: Label `tab:observation' multiply defined.
+
+
+LaTeX Warning: Label `tab:observation' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -253,8 +260,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
 \scratchdimen=\dimen166
@@ -310,112 +316,116 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figs/highpass.png, id=13, 311.1625pt x 155.58125pt>
 File: figs/highpass.png Graphic file (type png)
 <use figs/highpass.png>
-Package pdftex.def Info: figs/highpass.png  used on input line 54.
+Package pdftex.def Info: figs/highpass.png  used on input line 56.
 (pdftex.def)             Requested size: 175.49881pt x 87.74925pt.
 <figs/hpf_circuit.jpeg, id=15, 1606.0pt x 1208.515pt>
 File: figs/hpf_circuit.jpeg Graphic file (type jpg)
 <use figs/hpf_circuit.jpeg>
-Package pdftex.def Info: figs/hpf_circuit.jpeg  used on input line 58.
+Package pdftex.def Info: figs/hpf_circuit.jpeg  used on input line 60.
 (pdftex.def)             Requested size: 175.49881pt x 132.05191pt.
- [2 <./figs/highpass.png> <./figs/hpf_circuit.jpeg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--61
+
+ []
+
+[2 <./figs/highpass.png> <./figs/hpf_circuit.jpeg>]
 <figs/hpf_less_cutoff_4.jpeg, id=22, 1604.99625pt x 902.37125pt>
 File: figs/hpf_less_cutoff_4.jpeg Graphic file (type jpg)
 <use figs/hpf_less_cutoff_4.jpeg>
-Package pdftex.def Info: figs/hpf_less_cutoff_4.jpeg  used on input line 85.
+Package pdftex.def Info: figs/hpf_less_cutoff_4.jpeg  used on input line 87.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_input_less_cutoff_4.jpeg, id=23, 1604.99625pt x 902.37125pt>
 File: figs/hpf_input_less_cutoff_4.jpeg Graphic file (type jpg)
 <use figs/hpf_input_less_cutoff_4.jpeg>
 Package pdftex.def Info: figs/hpf_input_less_cutoff_4.jpeg  used on input line 
-89.
+91.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_less_cutoff_3.jpeg, id=24, 1604.99625pt x 902.37125pt>
 File: figs/hpf_less_cutoff_3.jpeg Graphic file (type jpg)
 <use figs/hpf_less_cutoff_3.jpeg>
-Package pdftex.def Info: figs/hpf_less_cutoff_3.jpeg  used on input line 95.
+Package pdftex.def Info: figs/hpf_less_cutoff_3.jpeg  used on input line 97.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_input_less_cutoff_3.jpeg, id=25, 1604.99625pt x 902.37125pt>
 File: figs/hpf_input_less_cutoff_3.jpeg Graphic file (type jpg)
 <use figs/hpf_input_less_cutoff_3.jpeg>
 Package pdftex.def Info: figs/hpf_input_less_cutoff_3.jpeg  used on input line 
-99.
+101.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_less_cutoff_1.jpeg, id=26, 1604.99625pt x 902.37125pt>
 File: figs/hpf_less_cutoff_1.jpeg Graphic file (type jpg)
 <use figs/hpf_less_cutoff_1.jpeg>
-Package pdftex.def Info: figs/hpf_less_cutoff_1.jpeg  used on input line 105.
+Package pdftex.def Info: figs/hpf_less_cutoff_1.jpeg  used on input line 107.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_input_less_cutoff_1.jpeg, id=27, 1604.99625pt x 902.37125pt>
 File: figs/hpf_input_less_cutoff_1.jpeg Graphic file (type jpg)
 <use figs/hpf_input_less_cutoff_1.jpeg>
 Package pdftex.def Info: figs/hpf_input_less_cutoff_1.jpeg  used on input line 
-109.
+111.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_less_cutoff_2.jpeg, id=28, 1604.99625pt x 902.37125pt>
 File: figs/hpf_less_cutoff_2.jpeg Graphic file (type jpg)
 <use figs/hpf_less_cutoff_2.jpeg>
-Package pdftex.def Info: figs/hpf_less_cutoff_2.jpeg  used on input line 115.
+Package pdftex.def Info: figs/hpf_less_cutoff_2.jpeg  used on input line 117.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_input_less_cutoff_2.jpeg, id=29, 1604.99625pt x 902.37125pt>
 File: figs/hpf_input_less_cutoff_2.jpeg Graphic file (type jpg)
 <use figs/hpf_input_less_cutoff_2.jpeg>
 Package pdftex.def Info: figs/hpf_input_less_cutoff_2.jpeg  used on input line 
-119.
+121.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
  [3 <./figs/hpf_less_cutoff_4.jpeg> <./figs/hpf_input_less_cutoff_4.jpeg> <./fi
 gs/hpf_less_cutoff_3.jpeg> <./figs/hpf_input_less_cutoff_3.jpeg>]
 <figs/hpf_cutoff.jpeg, id=33, 1604.99625pt x 902.37125pt>
 File: figs/hpf_cutoff.jpeg Graphic file (type jpg)
 <use figs/hpf_cutoff.jpeg>
-Package pdftex.def Info: figs/hpf_cutoff.jpeg  used on input line 125.
+Package pdftex.def Info: figs/hpf_cutoff.jpeg  used on input line 127.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_input_cutoff.jpeg, id=34, 1604.99625pt x 902.37125pt>
 File: figs/hpf_input_cutoff.jpeg Graphic file (type jpg)
 <use figs/hpf_input_cutoff.jpeg>
-Package pdftex.def Info: figs/hpf_input_cutoff.jpeg  used on input line 129.
+Package pdftex.def Info: figs/hpf_input_cutoff.jpeg  used on input line 131.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_more_cutoff_1.jpeg, id=35, 1604.99625pt x 902.37125pt>
 File: figs/hpf_more_cutoff_1.jpeg Graphic file (type jpg)
 <use figs/hpf_more_cutoff_1.jpeg>
-Package pdftex.def Info: figs/hpf_more_cutoff_1.jpeg  used on input line 135.
+Package pdftex.def Info: figs/hpf_more_cutoff_1.jpeg  used on input line 137.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_input_more_cutoff_1.jpeg, id=36, 1604.99625pt x 902.37125pt>
 File: figs/hpf_input_more_cutoff_1.jpeg Graphic file (type jpg)
 <use figs/hpf_input_more_cutoff_1.jpeg>
 Package pdftex.def Info: figs/hpf_input_more_cutoff_1.jpeg  used on input line 
-139.
+141.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_more_cutoff_2.jpeg, id=37, 1604.99625pt x 902.37125pt>
 File: figs/hpf_more_cutoff_2.jpeg Graphic file (type jpg)
 <use figs/hpf_more_cutoff_2.jpeg>
-Package pdftex.def Info: figs/hpf_more_cutoff_2.jpeg  used on input line 145.
+Package pdftex.def Info: figs/hpf_more_cutoff_2.jpeg  used on input line 147.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_input_more_cutoff_2.jpeg, id=38, 1604.99625pt x 902.37125pt>
 File: figs/hpf_input_more_cutoff_2.jpeg Graphic file (type jpg)
 <use figs/hpf_input_more_cutoff_2.jpeg>
 Package pdftex.def Info: figs/hpf_input_more_cutoff_2.jpeg  used on input line 
-149.
+151.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_more_cutoff_3.jpeg, id=39, 1604.99625pt x 902.37125pt>
 File: figs/hpf_more_cutoff_3.jpeg Graphic file (type jpg)
 <use figs/hpf_more_cutoff_3.jpeg>
-Package pdftex.def Info: figs/hpf_more_cutoff_3.jpeg  used on input line 155.
+Package pdftex.def Info: figs/hpf_more_cutoff_3.jpeg  used on input line 157.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/hpf_input_more_cutoff_3.jpeg, id=40, 1604.99625pt x 902.37125pt>
 File: figs/hpf_input_more_cutoff_3.jpeg Graphic file (type jpg)
 <use figs/hpf_input_more_cutoff_3.jpeg>
 Package pdftex.def Info: figs/hpf_input_more_cutoff_3.jpeg  used on input line 
-159.
+161.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-
-[4 <./figs/hpf_less_cutoff_1.jpeg> <./figs/hpf_input_less_cutoff_1.jpeg> <./fig
-s/hpf_less_cutoff_2.jpeg> <./figs/hpf_input_less_cutoff_2.jpeg> <./figs/hpf_cut
-off.jpeg> <./figs/hpf_input_cutoff.jpeg> <./figs/hpf_more_cutoff_1.jpeg> <./fig
-s/hpf_input_more_cutoff_1.jpeg>]
+ [4 <./figs/hpf_less_cutoff_1.jpeg> <./figs/hpf_input_less_cutoff_1.jpeg> <./fi
+gs/hpf_less_cutoff_2.jpeg> <./figs/hpf_input_less_cutoff_2.jpeg> <./figs/hpf_cu
+toff.jpeg> <./figs/hpf_input_cutoff.jpeg> <./figs/hpf_more_cutoff_1.jpeg> <./fi
+gs/hpf_input_more_cutoff_1.jpeg>]
 <figs/high.png, id=44, 578.16pt x 334.6101pt>
 File: figs/high.png Graphic file (type png)
 <use figs/high.png>
-Package pdftex.def Info: figs/high.png  used on input line 163.
+Package pdftex.def Info: figs/high.png  used on input line 165.
 (pdftex.def)             Requested size: 390.0pt x 225.7091pt.
  [5 <./figs/hpf_more_cutoff_2.jpeg> <./figs/hpf_input_more_cutoff_2.jpeg> <./fi
 gs/hpf_more_cutoff_3.jpeg> <./figs/hpf_input_more_cutoff_3.jpeg> <./figs/high.p
@@ -423,241 +433,249 @@ ng>]
 <figs/lowpass.png, id=49, 260.975pt x 130.4875pt>
 File: figs/lowpass.png Graphic file (type png)
 <use figs/lowpass.png>
-Package pdftex.def Info: figs/lowpass.png  used on input line 177.
+Package pdftex.def Info: figs/lowpass.png  used on input line 181.
 (pdftex.def)             Requested size: 175.49881pt x 87.7507pt.
 <figs/lpf_circuit.jpeg, id=50, 902.37125pt x 1604.99625pt>
 File: figs/lpf_circuit.jpeg Graphic file (type jpg)
 <use figs/lpf_circuit.jpeg>
-Package pdftex.def Info: figs/lpf_circuit.jpeg  used on input line 181.
+Package pdftex.def Info: figs/lpf_circuit.jpeg  used on input line 185.
 (pdftex.def)             Requested size: 175.49881pt x 312.15259pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--186
+
+ []
+
 <figs/lpf_less_cutoff_3.jpeg, id=51, 1604.99625pt x 902.37125pt>
 File: figs/lpf_less_cutoff_3.jpeg Graphic file (type jpg)
 <use figs/lpf_less_cutoff_3.jpeg>
-Package pdftex.def Info: figs/lpf_less_cutoff_3.jpeg  used on input line 206.
+Package pdftex.def Info: figs/lpf_less_cutoff_3.jpeg  used on input line 210.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_input_less_cutoff_3.jpeg, id=52, 1604.99625pt x 902.37125pt>
 File: figs/lpf_input_less_cutoff_3.jpeg Graphic file (type jpg)
 <use figs/lpf_input_less_cutoff_3.jpeg>
 Package pdftex.def Info: figs/lpf_input_less_cutoff_3.jpeg  used on input line 
-210.
+214.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
- [6 <./figs/lowpass.png> <./figs/lpf_circuit.jpeg>]
+[6 <./figs/lowpass.png> <./figs/lpf_circuit.jpeg>]
 <figs/lpf_less_cutoff_2.jpeg, id=57, 1604.99625pt x 902.37125pt>
 File: figs/lpf_less_cutoff_2.jpeg Graphic file (type jpg)
 <use figs/lpf_less_cutoff_2.jpeg>
-Package pdftex.def Info: figs/lpf_less_cutoff_2.jpeg  used on input line 216.
+Package pdftex.def Info: figs/lpf_less_cutoff_2.jpeg  used on input line 220.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_input_less_cutoff_2.jpeg, id=58, 1604.99625pt x 902.37125pt>
 File: figs/lpf_input_less_cutoff_2.jpeg Graphic file (type jpg)
 <use figs/lpf_input_less_cutoff_2.jpeg>
 Package pdftex.def Info: figs/lpf_input_less_cutoff_2.jpeg  used on input line 
-220.
+224.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_less_cutoff_1.jpeg, id=59, 1604.99625pt x 902.37125pt>
 File: figs/lpf_less_cutoff_1.jpeg Graphic file (type jpg)
 <use figs/lpf_less_cutoff_1.jpeg>
-Package pdftex.def Info: figs/lpf_less_cutoff_1.jpeg  used on input line 226.
+Package pdftex.def Info: figs/lpf_less_cutoff_1.jpeg  used on input line 230.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_input_less_cutoff_1.jpeg, id=60, 1604.99625pt x 902.37125pt>
 File: figs/lpf_input_less_cutoff_1.jpeg Graphic file (type jpg)
 <use figs/lpf_input_less_cutoff_1.jpeg>
 Package pdftex.def Info: figs/lpf_input_less_cutoff_1.jpeg  used on input line 
-230.
+234.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_cutoff.jpeg, id=61, 1604.99625pt x 902.37125pt>
 File: figs/lpf_cutoff.jpeg Graphic file (type jpg)
 <use figs/lpf_cutoff.jpeg>
-Package pdftex.def Info: figs/lpf_cutoff.jpeg  used on input line 236.
+Package pdftex.def Info: figs/lpf_cutoff.jpeg  used on input line 240.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_input_cutoff.jpeg, id=62, 1604.99625pt x 902.37125pt>
 File: figs/lpf_input_cutoff.jpeg Graphic file (type jpg)
 <use figs/lpf_input_cutoff.jpeg>
-Package pdftex.def Info: figs/lpf_input_cutoff.jpeg  used on input line 240.
+Package pdftex.def Info: figs/lpf_input_cutoff.jpeg  used on input line 244.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
  [7 <./figs/lpf_less_cutoff_3.jpeg> <./figs/lpf_input_less_cutoff_3.jpeg> <./fi
 gs/lpf_less_cutoff_2.jpeg> <./figs/lpf_input_less_cutoff_2.jpeg>]
 <figs/lpf_more_cutoff_1.jpeg, id=67, 1604.99625pt x 902.37125pt>
 File: figs/lpf_more_cutoff_1.jpeg Graphic file (type jpg)
 <use figs/lpf_more_cutoff_1.jpeg>
-Package pdftex.def Info: figs/lpf_more_cutoff_1.jpeg  used on input line 246.
+Package pdftex.def Info: figs/lpf_more_cutoff_1.jpeg  used on input line 250.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_input_more_cutoff_1.jpeg, id=68, 1604.99625pt x 902.37125pt>
 File: figs/lpf_input_more_cutoff_1.jpeg Graphic file (type jpg)
 <use figs/lpf_input_more_cutoff_1.jpeg>
 Package pdftex.def Info: figs/lpf_input_more_cutoff_1.jpeg  used on input line 
-250.
+254.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_more_cutoff_2.jpeg, id=69, 1604.99625pt x 902.37125pt>
 File: figs/lpf_more_cutoff_2.jpeg Graphic file (type jpg)
 <use figs/lpf_more_cutoff_2.jpeg>
-Package pdftex.def Info: figs/lpf_more_cutoff_2.jpeg  used on input line 256.
+Package pdftex.def Info: figs/lpf_more_cutoff_2.jpeg  used on input line 260.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_input_more_cutoff_2.jpeg, id=70, 1604.99625pt x 902.37125pt>
 File: figs/lpf_input_more_cutoff_2.jpeg Graphic file (type jpg)
 <use figs/lpf_input_more_cutoff_2.jpeg>
 Package pdftex.def Info: figs/lpf_input_more_cutoff_2.jpeg  used on input line 
-260.
+264.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_more_cutoff_3.jpeg, id=71, 1604.99625pt x 902.37125pt>
 File: figs/lpf_more_cutoff_3.jpeg Graphic file (type jpg)
 <use figs/lpf_more_cutoff_3.jpeg>
-Package pdftex.def Info: figs/lpf_more_cutoff_3.jpeg  used on input line 266.
+Package pdftex.def Info: figs/lpf_more_cutoff_3.jpeg  used on input line 270.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/lpf_input_more_cutoff_3.jpeg, id=72, 1604.99625pt x 902.37125pt>
 File: figs/lpf_input_more_cutoff_3.jpeg Graphic file (type jpg)
 <use figs/lpf_input_more_cutoff_3.jpeg>
 Package pdftex.def Info: figs/lpf_input_more_cutoff_3.jpeg  used on input line 
-270.
+274.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/low.png, id=73, 578.16pt x 334.6101pt>
 File: figs/low.png Graphic file (type png)
 <use figs/low.png>
-Package pdftex.def Info: figs/low.png  used on input line 274.
+Package pdftex.def Info: figs/low.png  used on input line 278.
 (pdftex.def)             Requested size: 390.0pt x 225.7091pt.
-
-[8 <./figs/lpf_less_cutoff_1.jpeg> <./figs/lpf_input_less_cutoff_1.jpeg> <./fig
-s/lpf_cutoff.jpeg> <./figs/lpf_input_cutoff.jpeg> <./figs/lpf_more_cutoff_1.jpe
-g> <./figs/lpf_input_more_cutoff_1.jpeg> <./figs/lpf_more_cutoff_2.jpeg> <./fig
-s/lpf_input_more_cutoff_2.jpeg>]
+ [8 <./figs/lpf_less_cutoff_1.jpeg> <./figs/lpf_input_less_cutoff_1.jpeg> <./fi
+gs/lpf_cutoff.jpeg> <./figs/lpf_input_cutoff.jpeg> <./figs/lpf_more_cutoff_1.jp
+eg> <./figs/lpf_input_more_cutoff_1.jpeg> <./figs/lpf_more_cutoff_2.jpeg> <./fi
+gs/lpf_input_more_cutoff_2.jpeg>]
 <figs/bpf_circuit.jpeg, id=77, 902.37125pt x 1604.99625pt>
 File: figs/bpf_circuit.jpeg Graphic file (type jpg)
 <use figs/bpf_circuit.jpeg>
-Package pdftex.def Info: figs/bpf_circuit.jpeg  used on input line 287.
+Package pdftex.def Info: figs/bpf_circuit.jpeg  used on input line 295.
 (pdftex.def)             Requested size: 155.99762pt x 277.44992pt.
- [9 <./figs/lpf_more_cutoff_3.jpeg> <./figs/lpf_input_more_cutoff_3.jpeg> <./fi
-gs/low.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--297
+
+ []
+
+[9 <./figs/lpf_more_cutoff_3.jpeg> <./figs/lpf_input_more_cutoff_3.jpeg> <./fig
+s/low.png>]
 <figs/bpf_between_5.jpeg, id=82, 1604.99625pt x 902.37125pt>
 File: figs/bpf_between_5.jpeg Graphic file (type jpg)
 <use figs/bpf_between_5.jpeg>
-Package pdftex.def Info: figs/bpf_between_5.jpeg  used on input line 316.
+Package pdftex.def Info: figs/bpf_between_5.jpeg  used on input line 324.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/bpf_input_between_5.jpeg, id=83, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_between_5.jpeg Graphic file (type jpg)
 <use figs/bpf_input_between_5.jpeg>
-Package pdftex.def Info: figs/bpf_input_between_5.jpeg  used on input line 320.
-
-(pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_between_4.jpeg, id=84, 1604.99625pt x 902.37125pt>
-File: figs/bpf_between_4.jpeg Graphic file (type jpg)
-<use figs/bpf_between_4.jpeg>
-Package pdftex.def Info: figs/bpf_between_4.jpeg  used on input line 326.
-(pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_input_between_4.jpeg, id=85, 1604.99625pt x 902.37125pt>
-File: figs/bpf_input_between_4.jpeg Graphic file (type jpg)
-<use figs/bpf_input_between_4.jpeg>
-Package pdftex.def Info: figs/bpf_input_between_4.jpeg  used on input line 330.
+Package pdftex.def Info: figs/bpf_input_between_5.jpeg  used on input line 328.
 
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
  [10 <./figs/bpf_circuit.jpeg>]
+<figs/bpf_between_4.jpeg, id=87, 1604.99625pt x 902.37125pt>
+File: figs/bpf_between_4.jpeg Graphic file (type jpg)
+<use figs/bpf_between_4.jpeg>
+Package pdftex.def Info: figs/bpf_between_4.jpeg  used on input line 334.
+(pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
+<figs/bpf_input_between_4.jpeg, id=88, 1604.99625pt x 902.37125pt>
+File: figs/bpf_input_between_4.jpeg Graphic file (type jpg)
+<use figs/bpf_input_between_4.jpeg>
+Package pdftex.def Info: figs/bpf_input_between_4.jpeg  used on input line 338.
+
+(pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/bpf_cutoff.jpeg, id=89, 1604.99625pt x 902.37125pt>
 File: figs/bpf_cutoff.jpeg Graphic file (type jpg)
 <use figs/bpf_cutoff.jpeg>
-Package pdftex.def Info: figs/bpf_cutoff.jpeg  used on input line 336.
+Package pdftex.def Info: figs/bpf_cutoff.jpeg  used on input line 344.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/bpf_input_cutoff.jpeg, id=90, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_cutoff.jpeg Graphic file (type jpg)
 <use figs/bpf_input_cutoff.jpeg>
-Package pdftex.def Info: figs/bpf_input_cutoff.jpeg  used on input line 340.
+Package pdftex.def Info: figs/bpf_input_cutoff.jpeg  used on input line 348.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/bpf_between_3.jpeg, id=91, 1604.99625pt x 902.37125pt>
 File: figs/bpf_between_3.jpeg Graphic file (type jpg)
 <use figs/bpf_between_3.jpeg>
-Package pdftex.def Info: figs/bpf_between_3.jpeg  used on input line 346.
+Package pdftex.def Info: figs/bpf_between_3.jpeg  used on input line 354.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/bpf_input_between_3.jpeg, id=92, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_between_3.jpeg Graphic file (type jpg)
 <use figs/bpf_input_between_3.jpeg>
-Package pdftex.def Info: figs/bpf_input_between_3.jpeg  used on input line 350.
+Package pdftex.def Info: figs/bpf_input_between_3.jpeg  used on input line 358.
 
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_between_2.jpeg, id=93, 1604.99625pt x 902.37125pt>
+ [11 <./figs/bpf_between_5.jpeg> <./figs/bpf_input_between_5.jpeg> <./figs/bpf_
+between_4.jpeg> <./figs/bpf_input_between_4.jpeg>]
+<figs/bpf_between_2.jpeg, id=96, 1604.99625pt x 902.37125pt>
 File: figs/bpf_between_2.jpeg Graphic file (type jpg)
 <use figs/bpf_between_2.jpeg>
-Package pdftex.def Info: figs/bpf_between_2.jpeg  used on input line 356.
+Package pdftex.def Info: figs/bpf_between_2.jpeg  used on input line 364.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_input_between_2.jpeg, id=94, 1604.99625pt x 902.37125pt>
+<figs/bpf_input_between_2.jpeg, id=97, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_between_2.jpeg Graphic file (type jpg)
 <use figs/bpf_input_between_2.jpeg>
-Package pdftex.def Info: figs/bpf_input_between_2.jpeg  used on input line 360.
+Package pdftex.def Info: figs/bpf_input_between_2.jpeg  used on input line 368.
 
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_between_1.jpeg, id=95, 1604.99625pt x 902.37125pt>
+<figs/bpf_between_1.jpeg, id=98, 1604.99625pt x 902.37125pt>
 File: figs/bpf_between_1.jpeg Graphic file (type jpg)
 <use figs/bpf_between_1.jpeg>
-Package pdftex.def Info: figs/bpf_between_1.jpeg  used on input line 366.
+Package pdftex.def Info: figs/bpf_between_1.jpeg  used on input line 374.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_input_between_1.jpeg, id=96, 1604.99625pt x 902.37125pt>
+<figs/bpf_input_between_1.jpeg, id=99, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_between_1.jpeg Graphic file (type jpg)
 <use figs/bpf_input_between_1.jpeg>
-Package pdftex.def Info: figs/bpf_input_between_1.jpeg  used on input line 370.
+Package pdftex.def Info: figs/bpf_input_between_1.jpeg  used on input line 378.
 
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-
-[11 <./figs/bpf_between_5.jpeg> <./figs/bpf_input_between_5.jpeg> <./figs/bpf_b
-etween_4.jpeg> <./figs/bpf_input_between_4.jpeg> <./figs/bpf_cutoff.jpeg> <./fi
-gs/bpf_input_cutoff.jpeg> <./figs/bpf_between_3.jpeg> <./figs/bpf_input_between
-_3.jpeg>]
 <figs/bpf_between_6.jpeg, id=100, 1604.99625pt x 902.37125pt>
 File: figs/bpf_between_6.jpeg Graphic file (type jpg)
 <use figs/bpf_between_6.jpeg>
-Package pdftex.def Info: figs/bpf_between_6.jpeg  used on input line 376.
+Package pdftex.def Info: figs/bpf_between_6.jpeg  used on input line 384.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/bpf_input_between_6.jpeg, id=101, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_between_6.jpeg Graphic file (type jpg)
 <use figs/bpf_input_between_6.jpeg>
-Package pdftex.def Info: figs/bpf_input_between_6.jpeg  used on input line 380.
+Package pdftex.def Info: figs/bpf_input_between_6.jpeg  used on input line 388.
 
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/bpf_hpf_cutoff.jpeg, id=102, 1604.99625pt x 902.37125pt>
 File: figs/bpf_hpf_cutoff.jpeg Graphic file (type jpg)
 <use figs/bpf_hpf_cutoff.jpeg>
-Package pdftex.def Info: figs/bpf_hpf_cutoff.jpeg  used on input line 386.
+Package pdftex.def Info: figs/bpf_hpf_cutoff.jpeg  used on input line 394.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
 <figs/bpf_input_hpf_cutoff.jpeg, id=103, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_hpf_cutoff.jpeg Graphic file (type jpg)
 <use figs/bpf_input_hpf_cutoff.jpeg>
-Package pdftex.def Info: figs/bpf_input_hpf_cutoff.jpeg  used on input line 390
+Package pdftex.def Info: figs/bpf_input_hpf_cutoff.jpeg  used on input line 398
 .
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_more_2.jpeg, id=104, 1604.99625pt x 902.37125pt>
+ [12 <./figs/bpf_cutoff.jpeg> <./figs/bpf_input_cutoff.jpeg> <./figs/bpf_betwee
+n_3.jpeg> <./figs/bpf_input_between_3.jpeg> <./figs/bpf_between_2.jpeg> <./figs
+/bpf_input_between_2.jpeg> <./figs/bpf_between_1.jpeg> <./figs/bpf_input_betwee
+n_1.jpeg>]
+<figs/bpf_more_2.jpeg, id=107, 1604.99625pt x 902.37125pt>
 File: figs/bpf_more_2.jpeg Graphic file (type jpg)
 <use figs/bpf_more_2.jpeg>
-Package pdftex.def Info: figs/bpf_more_2.jpeg  used on input line 396.
+Package pdftex.def Info: figs/bpf_more_2.jpeg  used on input line 404.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_input_more_2.jpeg, id=105, 1604.99625pt x 902.37125pt>
+<figs/bpf_input_more_2.jpeg, id=108, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_more_2.jpeg Graphic file (type jpg)
 <use figs/bpf_input_more_2.jpeg>
-Package pdftex.def Info: figs/bpf_input_more_2.jpeg  used on input line 400.
+Package pdftex.def Info: figs/bpf_input_more_2.jpeg  used on input line 408.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_more_1.jpeg, id=106, 1604.99625pt x 902.37125pt>
+<figs/bpf_more_1.jpeg, id=109, 1604.99625pt x 902.37125pt>
 File: figs/bpf_more_1.jpeg Graphic file (type jpg)
 <use figs/bpf_more_1.jpeg>
-Package pdftex.def Info: figs/bpf_more_1.jpeg  used on input line 406.
+Package pdftex.def Info: figs/bpf_more_1.jpeg  used on input line 414.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
-<figs/bpf_input_more_1.jpeg, id=107, 1604.99625pt x 902.37125pt>
+<figs/bpf_input_more_1.jpeg, id=110, 1604.99625pt x 902.37125pt>
 File: figs/bpf_input_more_1.jpeg Graphic file (type jpg)
 <use figs/bpf_input_more_1.jpeg>
-Package pdftex.def Info: figs/bpf_input_more_1.jpeg  used on input line 410.
+Package pdftex.def Info: figs/bpf_input_more_1.jpeg  used on input line 418.
 (pdftex.def)             Requested size: 175.49881pt x 98.66907pt.
- [12 <./figs/bpf_between_2.jpeg> <./figs/bpf_input_between_2.jpeg> <./figs/bpf_
-between_1.jpeg> <./figs/bpf_input_between_1.jpeg> <./figs/bpf_between_6.jpeg> <
-./figs/bpf_input_between_6.jpeg> <./figs/bpf_hpf_cutoff.jpeg> <./figs/bpf_input
-_hpf_cutoff.jpeg>]
 <figs/band.png, id=111, 578.16pt x 334.6101pt>
 File: figs/band.png Graphic file (type png)
 <use figs/band.png>
-Package pdftex.def Info: figs/band.png  used on input line 414.
+Package pdftex.def Info: figs/band.png  used on input line 422.
 (pdftex.def)             Requested size: 390.0pt x 225.7091pt.
- [13 <./figs/bpf_more_2.jpeg> <./figs/bpf_input_more_2.jpeg> <./figs/bpf_more_1
-.jpeg> <./figs/bpf_input_more_1.jpeg> <./figs/band.png>] [14] (./report.aux)
+ [13 <./figs/bpf_between_6.jpeg> <./figs/bpf_input_between_6.jpeg> <./figs/bpf_
+hpf_cutoff.jpeg> <./figs/bpf_input_hpf_cutoff.jpeg> <./figs/bpf_more_2.jpeg> <.
+/figs/bpf_input_more_2.jpeg> <./figs/bpf_more_1.jpeg> <./figs/bpf_input_more_1.
+jpeg>] [14 <./figs/band.png>] (./report.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  8518 strings out of 478287
  191753 string characters out of 5849290
- 438577 words of memory out of 5000000
+ 439617 words of memory out of 5000000
  26595 multiletter control sequences out of 15000+600000
  478666 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -671,7 +689,7 @@ public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on report.pdf (14 pages, 8179516 bytes).
+Output written on report.pdf (14 pages, 8180407 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream

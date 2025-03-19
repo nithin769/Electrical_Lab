@@ -46,7 +46,9 @@ A high pass filter allows signals with frequencies higher than a certain cutoff 
 \begin{equation}
     f_{c1} = \frac{1}{2\pi \sqrt{R_1 R_2 C_1 C_2}}
 \end{equation}
-This filter is used to eliminate unwanted low-frequency noise, such as DC offsets, and isolate higher-frequency components.
+This filter is used to eliminate unwanted low-frequency noise, such as DC offsets, and isolate higher-frequency components.\\
+\textbf{The values of Resistors are:} 14.8kohm, 14.8kohm \\
+\textbf{The values of Capacitors are:} 1nF, 1.2nF \\
 \begin{figure}[H]
     \centering
     \subfigure[]{
@@ -169,7 +171,9 @@ A low pass filter allows signals with frequencies lower than a certain cutoff fr
 \begin{equation}
     f_{c2} = \frac{1}{2\pi \sqrt{R_3 R_4 C_3 C_4}}
 \end{equation}
-This filter is useful in applications where high-frequency noise needs to be removed, such as in audio processing and communication systems.
+This filter is useful in applications where high-frequency noise needs to be removed, such as in audio processing and communication systems.\\
+\textbf{The values of Resistors are:} 8.2kohm, 8.2kohm\\
+\textbf{The values of Capacitors in LPF part are:} 1nF, 1nF \\
 \begin{figure}[H]
     \centering
     \subfigure[]{
@@ -281,7 +285,11 @@ A bandpass filter is formed by cascading the HPF and LPF, allowing signals withi
     \item Bandwidth: $BW = f_{c2} - f_{c1}$
     \item Center Frequency: $f_0 = \sqrt{f_{c1} f_{c2}}$
 \end{itemize}
-Bandpass filters are widely used in wireless communication, biomedical signal processing, and audio applications to extract relevant signals within a desired frequency range.
+Bandpass filters are widely used in wireless communication, biomedical signal processing, and audio applications to extract relevant signals within a desired frequency range.\\
+\textbf{The values of Resistors in LPF part are:} 15ohm, 15ohm\\
+\textbf{The values of Resistors in HPF part are:} 150ohm, 150ohm \\
+\textbf{The values of Capacitors in LPF part are:} 1nF, 1nF \\
+\textbf{The values of Capacitors in HPF part are:} 1nF, 1nF \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{figs/bpf_circuit.jpeg}
