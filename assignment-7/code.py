@@ -25,20 +25,20 @@ for i in range(len(extended_time)):
     Q2_extended[i] = (count >> 2) & 1
 
 # Plot the MOD-7 counter timing diagram with proper spacing
-plt.figure(figsize=(14, 9))  # Increased width for better spacing
+plt.figure(figsize=(12, 7))  # Increased width for better spacing
 plt.title("MOD-7 Counter Timing Diagram (T Flip-Flops, Falling Edge)")
 
 # Offset each waveform for better visibility
 plt.step(extended_time, np.array(clk_extended) + 6, where='post', label="Clock", linewidth=2, color='k')
-plt.step(extended_time, np.array(Q2_extended) + 4, where='post', label="Q2 (MSB)", linewidth=2, color='r')
-plt.step(extended_time, np.array(Q1_extended) + 2, where='post', label="Q1", linewidth=2, color='g')
-plt.step(extended_time, np.array(Q0_extended), where='post', label="Q0 (LSB)", linewidth=2, color='b')
+plt.step(extended_time, np.array(Q2_extended) + 4, where='post', label="Q3", linewidth=2, color='r')
+plt.step(extended_time, np.array(Q1_extended) + 2, where='post', label="Q2", linewidth=2, color='g')
+plt.step(extended_time, np.array(Q0_extended), where='post', label="Q1", linewidth=2, color='b')
 
 # Formatting plot
 plt.xlabel("Clock Pulses")
 plt.ylabel("State Levels")
 plt.xticks(np.arange(0, 31, 1))
-plt.yticks([0, 2, 4, 6], labels=["Q0", "Q1", "Q2", "Clock"])
+plt.yticks([0, 2, 4, 6], labels=["Q1", "Q2", "Q3", "Clock"])
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.legend()
 plt.show()

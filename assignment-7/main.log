@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  27 MAR 2025 14:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  27 MAR 2025 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,12 +765,17 @@ File: figs/7.jpeg Graphic file (type jpg)
 <use figs/7.jpeg>
 Package pdftex.def Info: figs/7.jpeg  used on input line 295.
 (pdftex.def)             Requested size: 234.00238pt x 141.86464pt.
-<figs/Plot.png, id=119, 1011.78pt x 623.6901pt>
+<figs/Plot.png, id=119, 867.24pt x 479.1501pt>
 File: figs/Plot.png Graphic file (type png)
 <use figs/Plot.png>
 Package pdftex.def Info: figs/Plot.png  used on input line 300.
-(pdftex.def)             Requested size: 390.0pt x 240.41168pt.
- [7 <./figs/4.jpeg> <./figs/5.jpeg> <./figs/6.jpeg>]
+(pdftex.def)             Requested size: 429.00238pt x 237.02284pt.
+
+Overfull \hbox (39.00238pt too wide) in paragraph at lines 300--301
+ [][] 
+ []
+
+[7 <./figs/4.jpeg> <./figs/5.jpeg> <./figs/6.jpeg>]
 <figs/fig1.jpeg, id=129, 1233.60875pt x 919.435pt>
 File: figs/fig1.jpeg Graphic file (type jpg)
 <use figs/fig1.jpeg>
@@ -787,7 +792,8 @@ File: figs/fig3.jpeg Graphic file (type jpg)
 <use figs/fig3.jpeg>
 Package pdftex.def Info: figs/fig3.jpeg  used on input line 314.
 (pdftex.def)             Requested size: 234.00238pt x 175.50266pt.
- [9 <./figs/fig1.jpeg> <./figs/fig2.jpeg>] [10 <./figs/fig3.jpeg>] (./main.aux)
+ [9 <./figs/fig1.jpeg> <./figs/fig2.jpeg>] [10 <./figs/fig3.jpeg>]
+(./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D7CB0D2C45A00E81F15B97E5FE1E9B04;1440.
  ) 
@@ -810,7 +816,7 @@ ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (10 pages, 1949921 bytes).
+Output written on main.pdf (10 pages, 1942801 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  166 compressed objects within 2 object streams
