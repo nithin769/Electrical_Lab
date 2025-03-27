@@ -38,6 +38,53 @@ The Mod-7 counter is implemented using three JK flip-flops. The JK flip-flops ar
 
 \subsection{Conversion of JK Flip-Flop to T Flip-Flop}
 A JK Flip-Flop can be converted into a T Flip-Flop by making the following modifications:
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{T} & \textbf{Q (Previous State)} & \textbf{Q (Next State)} \\
+        \hline
+        0 & 0 & 0 \\
+        0 & 1 & 1 \\
+        1 & 0 & 1 \\
+        1 & 1 & 0 \\
+        \hline
+    \end{tabular}
+    \caption{Truth Table for T Flip-Flop}
+\end{table}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{J} & \textbf{K} & \textbf{Q (Previous State)} & \textbf{Q (Next State)} \\
+        \hline
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 1 & 1 \\
+        0 & 1 & 0 & 0 \\
+        0 & 1 & 1 & 0 \\
+        1 & 0 & 0 & 1 \\
+        1 & 0 & 1 & 1 \\
+        1 & 1 & 0 & 1 \\
+        1 & 1 & 1 & 0 \\
+        \hline
+    \end{tabular}
+    \caption{Truth Table for JK Flip-Flop}
+\end{table}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Q} & \textbf{T} & \textbf{J} & \textbf{K} & \textbf{Q ( Next State)} \\
+        \hline
+        0 & 0 & 0 & X & 0 \\
+        0 & 1 & 1 & X & 1 \\
+        1 & 0 & X & 0 & 1 \\
+        1 & 1 & X & 1 & 0 \\
+        \hline
+    \end{tabular}
+    \caption{Truth Table for JK to T Flip-Flop}
+\end{table}
+
 \begin{enumerate}
     \item Connect both J and K inputs together.
     \item Use a single toggle (T) input instead of separate J and K inputs.
@@ -175,6 +222,40 @@ void loop() {
 }
 \end{verbatim}
 
+\section{Procedure}
+
+\begin{enumerate}
+    \item \textbf{Circuit Assembly}
+    \begin{enumerate}
+        \item Connect three JK flip-flops in cascade to form the Mod-7 counter.
+        \item Configure each JK flip-flop in toggle mode by connecting \( J = 1 \) and \( K = 1 \).
+        \item Use a NAND gate to reset the counter when the state reaches 7 (111).
+        \item Connect LEDs to the output of each flip-flop to visualize the counting sequence.
+        \item Provide power (5V) and ground connections to all ICs.
+    \end{enumerate}
+
+    \item \textbf{Clock Signal Generation}
+    \begin{enumerate}
+        \item Use an Arduino to generate a square wave clock signal at a fixed frequency.
+        \item Connect the Arduino clock output to the clock input of the first flip-flop.
+        \item Verify the clock signal using an oscilloscope.
+    \end{enumerate}
+
+    \item \textbf{Counter Operation Testing}
+    \begin{enumerate}
+        \item Power the circuit and observe the LED sequence.
+        \item Verify the counting sequence from 000 to 110 and check that it resets to 000.
+        \item Use a CRO to capture and analyze the waveforms of the clock and output states.
+        \item Measure the frequency division to confirm \( f_{Q1} = \frac{f_{clk}}{2} \), \( f_{Q2} = \frac{f_{clk}}{4} \), and \( f_{Q3} = \frac{f_{clk}}{8} \).
+    \end{enumerate}
+
+    \item \textbf{Analysis and Verification}
+    \begin{enumerate}
+        \item Compare the observed outputs with the theoretical state transition table.
+        \item Ensure proper synchronization of flip-flops and confirm correct reset behavior.
+    \end{enumerate}
+\end{enumerate}
+
 \section{Observations and Results}
 The counter output was verified using a Cathode Ray Oscilloscope (CRO), showing the expected sequence from 000 to 110 before resetting. The waveform analysis confirmed the correct operation of the Mod-7 counter.
 The below pictures are of the LED counter:\\
@@ -214,7 +295,10 @@ The below pictures are of the LED counter:\\
 \includegraphics[width=0.6\textwidth]{figs/7.jpeg}
 \caption*{1 1 0 = 6}
 \end{figure}
-
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figs/Plot.png}
+\end{figure}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{figs/fig1.jpeg}
