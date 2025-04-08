@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  6 APR 2025 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.5)  8 APR 2025 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,75 +799,85 @@ File: figs/Circuit.png Graphic file (type png)
 <use figs/Circuit.png>
 Package pdftex.def Info: figs/Circuit.png  used on input line 488.
 (pdftex.def)             Requested size: 390.0pt x 248.98247pt.
-<figs/r_19.jpeg, id=130, 1535.7375pt x 1403.2425pt>
-File: figs/r_19.jpeg Graphic file (type jpg)
-<use figs/r_19.jpeg>
-Package pdftex.def Info: figs/r_19.jpeg  used on input line 493.
-(pdftex.def)             Requested size: 234.00238pt x 213.79611pt.
  [10 <./figs/c7.png> <./figs/c8.png>]
-<figs/r_20.jpeg, id=139, 1606.0pt x 1091.07625pt>
-File: figs/r_20.jpeg Graphic file (type jpg)
-<use figs/r_20.jpeg>
-Package pdftex.def Info: figs/r_20.jpeg  used on input line 498.
-(pdftex.def)             Requested size: 234.00238pt x 158.97615pt.
-<figs/r_99.jpeg, id=140, 1606.0pt x 1203.49625pt>
-File: figs/r_99.jpeg Graphic file (type jpg)
-<use figs/r_99.jpeg>
-Package pdftex.def Info: figs/r_99.jpeg  used on input line 503.
-(pdftex.def)             Requested size: 234.00238pt x 175.3564pt.
-
-[11 <./figs/Circuit.png> <./figs/r_19.jpeg>] [12 <./figs/r_20.jpeg> <./figs/r_9
-9.jpeg>]
-Overfull \hbox (78.0122pt too wide) in paragraph at lines 511--619
+Overfull \hbox (78.0122pt too wide) in paragraph at lines 497--605
  [][] 
  []
 
 
-Overfull \hbox (77.99803pt too wide) in paragraph at lines 624--756
+Overfull \hbox (77.99803pt too wide) in paragraph at lines 610--742
  [][] 
  []
 
-<figs/1.png, id=154, 820.06375pt x 375.4025pt>
+[11 <./figs/Circuit.png>]
+<figs/r_0.png, id=146, 1372.12625pt x 788.9475pt>
+File: figs/r_0.png Graphic file (type png)
+<use figs/r_0.png>
+Package pdftex.def Info: figs/r_0.png  used on input line 747.
+(pdftex.def)             Requested size: 234.00238pt x 134.54063pt.
+<figs/r_9.png, id=147, 1487.5575pt x 818.05624pt>
+File: figs/r_9.png Graphic file (type png)
+<use figs/r_9.png>
+Package pdftex.def Info: figs/r_9.png  used on input line 752.
+(pdftex.def)             Requested size: 234.00238pt x 128.68227pt.
+<figs/r_10.png, id=148, 1523.6925pt x 813.0375pt>
+File: figs/r_10.png Graphic file (type png)
+<use figs/r_10.png>
+Package pdftex.def Info: figs/r_10.png  used on input line 757.
+(pdftex.def)             Requested size: 234.00238pt x 124.85335pt.
+ [12 <./figs/r_0.png>]
+<figs/r_99.png, id=156, 1604.99625pt x 902.37125pt>
+File: figs/r_99.png Graphic file (type png)
+<use figs/r_99.png>
+Package pdftex.def Info: figs/r_99.png  used on input line 762.
+(pdftex.def)             Requested size: 234.00238pt x 131.54958pt.
+<figs/1.png, id=157, 820.06375pt x 375.4025pt>
 File: figs/1.png Graphic file (type png)
 <use figs/1.png>
-Package pdftex.def Info: figs/1.png  used on input line 761.
+Package pdftex.def Info: figs/1.png  used on input line 768.
 (pdftex.def)             Requested size: 195.0pt x 89.26212pt.
-<figs/9.png, id=155, 820.06375pt x 375.4025pt>
+<figs/9.png, id=158, 820.06375pt x 375.4025pt>
 File: figs/9.png Graphic file (type png)
 <use figs/9.png>
-Package pdftex.def Info: figs/9.png  used on input line 766.
+Package pdftex.def Info: figs/9.png  used on input line 773.
 (pdftex.def)             Requested size: 195.0pt x 89.26212pt.
-[13]
-<figs/10.png, id=166, 820.06375pt x 375.4025pt>
+ [13 <./figs/r_9.png> <./figs/r_10.png> <./figs/r_99.png>]
+<figs/10.png, id=168, 820.06375pt x 375.4025pt>
 File: figs/10.png Graphic file (type png)
 <use figs/10.png>
-Package pdftex.def Info: figs/10.png  used on input line 771.
+Package pdftex.def Info: figs/10.png  used on input line 778.
 (pdftex.def)             Requested size: 195.0pt x 89.26212pt.
-<figs/89.png, id=167, 820.06375pt x 375.4025pt>
+<figs/89.png, id=169, 820.06375pt x 375.4025pt>
 File: figs/89.png Graphic file (type png)
 <use figs/89.png>
-Package pdftex.def Info: figs/89.png  used on input line 776.
+Package pdftex.def Info: figs/89.png  used on input line 783.
 (pdftex.def)             Requested size: 195.0pt x 89.26212pt.
-<figs/90.png, id=168, 820.06375pt x 375.4025pt>
+<figs/90.png, id=170, 820.06375pt x 375.4025pt>
 File: figs/90.png Graphic file (type png)
 <use figs/90.png>
-Package pdftex.def Info: figs/90.png  used on input line 781.
+Package pdftex.def Info: figs/90.png  used on input line 788.
 (pdftex.def)             Requested size: 195.0pt x 89.26212pt.
-<figs/99.png, id=169, 820.06375pt x 375.4025pt>
+<figs/99.png, id=171, 820.06375pt x 375.4025pt>
 File: figs/99.png Graphic file (type png)
 <use figs/99.png>
-Package pdftex.def Info: figs/99.png  used on input line 786.
+Package pdftex.def Info: figs/99.png  used on input line 793.
 (pdftex.def)             Requested size: 195.0pt x 89.26212pt.
- [14 <./figs/1.png> <./figs/9.png> <./figs/10.png> <./figs/89.png>]
-[15 <./figs/90.png> <./figs/99.png>] (./report.aux)
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: AFA6FF684AD0D8580F76FF1DA133821D;2143.
+ [14 <./figs/1.png> <./figs/9.png> <./figs/10.png> <./figs/89.png>] [15 <./figs
+/90.png> <./figs/99.png>] (./report.aux)
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: AFA6FF684AD0D8580F76FF1DA133821D;2143
+(rerunfilecheck)             After:  E603389C0266662A907B2A9AA30481EC;2383.
  ) 
 Here is how much of TeX's memory you used:
- 39774 strings out of 478287
- 965475 string characters out of 5849290
- 1637182 words of memory out of 5000000
- 57500 multiletter control sequences out of 15000+600000
+ 39803 strings out of 478287
+ 966224 string characters out of 5849290
+ 1605551 words of memory out of 5000000
+ 57527 multiletter control sequences out of 15000+600000
  476159 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,103p,684b,997s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -878,10 +888,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on report.pdf (15 pages, 1731502 bytes).
+Output written on report.pdf (15 pages, 2005304 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 61 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
